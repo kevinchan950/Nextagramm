@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+.Body {
+  background-color: lightyellow;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+
+.HomePageCard {
+  width: 100vw !important;
+  margin: 0;
+  margin-bottom: 30px;
+  background-color: lightyellow;
+  box-shadow: 5px 0px 5px 0px black;
+}
+
+
+.UserProfileImage {
+  width: 100%;
+  border: 8px solid white;
+  border-radius: 50% !important;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+.HomePageCardTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.HomePageUserImage{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Image {
+  width: 33%;
+  padding-top:1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.nav-item {
+  margin-left: 30px;
+}
+
+.navbar {
+  font-size: 1.3rem;
+  text-decoration: none;
+  background-color: lightsalmon;
+  font-weight:600;
+}
+
+.navbarlink {
+  color:black;
+}
+
+.navSearch {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.navbutton {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+  border: 1px solid black;
+}
+
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.modal-content {
+  width: 50vw;
+  margin: auto;
+  padding: 20px;
+  background-color: lightgray;
+  opacity: 90%;
+}
+
+.modal-button {
+  text-decoration: none;
+  color: black;
+}
+
+.form-header {
+  margin-bottom: 40px;
+}
+
+.form-button {
+  width: 100px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 80%;
+  position: absolute;
+  left: 120px;
+}
+
+.small {
+  color: black;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.previewImage {
+  margin: auto;
+  margin-top: 30px;
+}
+
+.uploadpage-header {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.uploadpage-form {
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
